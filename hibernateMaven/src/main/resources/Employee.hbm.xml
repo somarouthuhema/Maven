@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-mapping>
+  <class name="com/techouts/Employee.java" table="employee" schema="StudentDetails">
+  
+  <id name = "eid"  column = "eid">
+         <generator class="native"/>
+         </id>
+  <property name="ename"></property>
+  <property name="esal"></property>
+ </class>
+</hibernate-mapping>
